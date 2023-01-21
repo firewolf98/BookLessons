@@ -1,0 +1,23 @@
+@charset "ISO-8859-1";
+
+.lessons{
+	font-size:28px;
+	font-weight:bold;
+	color:#140d0d;
+	text-decoration: underline;
+}
+
+.block {
+	margin-left:300px;
+}
+
+.row{
+	
+	margin: 10px;
+}
+
+.container{
+	border: transparent;
+}
+
+

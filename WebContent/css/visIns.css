@@ -1,0 +1,25 @@
+@charset "ISO-8859-1";
+
+.container{
+	margin-top: 10px;
+}
+
+.panel{
+	background-color: #007dc3;
+	color: white;
+}
+
+img{
+	max-widht:200px;
+	max-height:300px;
+}
+
+input{
+	 color: #fff;
+}
+
+.imgCart{
+	max-widht:200px;
+	max-height:300px;
+}
+

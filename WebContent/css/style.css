@@ -1,0 +1,107 @@
+@charset "ISO-8859-1";
+
+.navbar {
+	min-height: 50px;
+	position: relative;
+}
+
+.navbar-header {
+	min-height: 50px;
+}
+
+.navbar-nav {
+	text-shadow: 4px 4px 20px grey;
+}
+
+#topbar {
+	margin: 0;
+}
+
+#topbar .navbar-brand {
+	height: 0;
+	width: auto;
+}
+
+#topbar .img-responsive {
+	z-index: 3;
+	padding: 0;
+	height: 2em;
+	margin-top: 0;
+	padding-bottom: 4px;
+}
+
+.jumbotron {
+	background-position: 0% 15%;
+	background-image: url("../img/student1.jpg");
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	height: 55vh;
+	width: 100%;
+	color: white;
+	text-shadow: black 0.3em 0.3em 0.3em;
+}
+
+.jumbotron #contentj {
+	margin-top: 50px;
+	margin-bottom: 70px;
+	width: 100%;
+	height: 100%;
+	position: relative;
+}
+
+.fa {
+	display: inline-block;
+	font: 22px;
+}
+
+.circle-icon {
+	width: 100px;
+	height: 100px;
+	background-color: #007dc3;
+	color: white;
+	border-radius: 100px;
+	padding-top: 30px;
+	font-size: 2.5em;
+	text-align: center;
+}
+
+footer {
+	background-color: #007dc3;
+	color: white;
+}
+
+.img-circle{
+	 border-radius: 50%;
+	 width: 150px;
+	 height: 150px;
+}
+
+.fa-star{
+	color:#fbfb00;
+	
+}
+
+.carousel-control{
+	color: #007dc3;
+    font-size: 3em;
+    widht: 100px;
+    height:150px;
+    text-shadow: none;
+    opacity: 1;
+}
+
+.left{
+	left: -20px;
+}
+
+.carousel-control:focus:hover {
+    opacity: 1;
+    color: #007dc3;
+}
+
+
+.navbar-default .navbar-toggle .icon-bar {
+    background-color: #888;
+}
